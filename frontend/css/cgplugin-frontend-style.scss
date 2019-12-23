@@ -1,0 +1,61 @@
+/**
+ *
+ * Property GoogleMap Category Display Styles
+ *
+ */
+
+// $bg-color: #df5400;
+
+/**
+ *
+ * Property List Display Shortcode
+ *
+ */
+
+.CG-CPT-LISTBOX-SHORTCODE {
+  // .masonry {
+  //   /* Masonry container */
+  //   -webkit-column-count: 4;
+  //   -moz-column-count: 4;
+  //   column-count: 4;
+  //   -webkit-column-gap: 1em;
+  //   -moz-column-gap: 1em;
+  //   column-gap: 1em;
+  //   margin: 1.5em;
+  //   padding: 0;
+  //   -moz-column-gap: 1.5em;
+  //   -webkit-column-gap: 1.5em;
+  //   column-gap: 1.5em;
+  //   font-size: 0.85em;
+  // }
+  .item {
+    display: inline-block;
+    background: #fff;
+    // padding: 1em;
+    // margin: 0 0 1.5em;
+    margin-bottom: 1.8rem;
+    width: 100%;
+    -webkit-transition: 1s ease all;
+    transition: 1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+
+    img {
+      width: 100%;
+    }
+
+    .main-content {
+      padding: 1.5rem;
+      .title {
+        min-height: 75px;
+        // border: 1px solid blue;
+      }
+      .description {
+        min-height: 130px;
+        // border: 1px solid red;
+      }
+    }
+  }
+}

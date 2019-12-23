@@ -1,0 +1,36 @@
+/**
+ *
+ * Property GoogleMap Category Display Styles
+ *
+ */
+/**
+ *
+ * Property List Display Shortcode
+ *
+ */
+.CG-CPT-LISTBOX-SHORTCODE .item {
+  display: inline-block;
+  background: #fff;
+  margin-bottom: 1.8rem;
+  width: 100%;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 2px 2px 4px 0 #ccc;
+}
+.CG-CPT-LISTBOX-SHORTCODE .item img {
+  width: 100%;
+}
+.CG-CPT-LISTBOX-SHORTCODE .item .main-content {
+  padding: 1.5rem;
+}
+.CG-CPT-LISTBOX-SHORTCODE .item .main-content .title {
+  min-height: 75px;
+}
+.CG-CPT-LISTBOX-SHORTCODE .item .main-content .description {
+  min-height: 130px;
+}
+
+/*# sourceMappingURL=cgplugin-frontend-style.css.map */
